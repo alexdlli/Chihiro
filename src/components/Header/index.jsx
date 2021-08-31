@@ -4,7 +4,7 @@ import { Social } from "./Social";
 
 export function Header() {
   return (
-    <Flex mt="2.5625rem" px="4" mx="auto" w="1200px" maxW="100%" align="center" justifyContent="space-between" >
+    <Flex mt="2.5625rem" px="4" mx="auto" w="100%" maxW="1200px" align="center" justifyContent="space-between" >
       <Logo />
       <Social />
     </Flex>

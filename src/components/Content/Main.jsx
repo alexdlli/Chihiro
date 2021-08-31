@@ -18,7 +18,7 @@ export function Main() {
         <Text mb="0.875rem" lineHeight="1.875rem" fontSize="1.25rem" fontWeight="bold">HAYAO MIYAZAKI</Text>
         <Text fontSize="4.25rem" fontWeight="900" lineHeight="4.6325rem">A VIAGEM <br /> DE CHIHIRO</Text>
       </Box>
-      <Text w="445px" lineHeight="1.8rem">Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais.</Text>
+      <Text w={["310px", "330px", "445px"]} lineHeight="1.8rem">Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais.</Text>
     
       <Flex mt="46px">
         <Button w="225px" h="45px" mr="4" transform='skew(-35deg)' border="none" borderRadius="none" bg="#658E76" colorScheme="green">
